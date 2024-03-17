@@ -1,0 +1,115 @@
+@import "Bootstrap/bootstrap.scss";
+
+
+
+body {
+    font-family: "Rubik", sans-serif !important;
+    font-weight: 400;
+}
+
+ul {
+    padding: 0;
+}
+.owl-nav {
+    margin: 0 !important;
+    .owl-prev {
+        position: absolute;
+        top: 40%;
+        left: 10px;
+        z-index: 9999;
+        height: 55px;
+        width: 55px;
+        border-radius: 100% !important;
+        background: var(--bs-secondary) !important;
+        border: 2px solid  #fff !important;
+        @extend .transition;
+        svg {
+            width: 35px;
+            height: 35px;
+            fill: #fff;
+        }
+        &:hover {
+            background: transparent !important;
+            border: 2px solid  var(--bs-secondary) !important;
+            svg { 
+                fill:  var(--bs-secondary) !important;
+            }
+        }
+    }
+    .owl-next {
+        position: absolute;
+        top: 40%;
+        right: 10px;
+        z-index: 9999;
+        height: 55px;
+        width: 55px;
+        border-radius: 100% !important;
+        background: var(--bs-secondary) !important;
+        border: 2px solid  #fff !important;
+        margin: 0;
+        @extend .transition;
+        svg {
+            width: 35px;
+            height: 35px;
+            fill: #fff;
+        }
+        &:hover {
+            background: transparent !important;
+            border: 2px solid  var(--bs-secondary) !important;
+            svg { 
+                fill:  var(--bs-secondary) !important;
+            }
+        }
+    }
+}
+.owl-dots {
+    position: absolute;
+    bottom: 10px;
+    width: 100%;
+}
+.form-control {
+    background: none;
+    background-color: #fff;
+    border: 1px solid #ececec;
+    border-radius: 0;
+    -webkit-appearance: none;
+    -webkit-border-radius: 0;
+    -moz-border-radius: 0;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    -webkit-transition: none;
+    color: #a0a0a0;
+    height: 44px;
+    font-size: 14px;
+    font-weight: 400;
+    font-family: Arial, sans-serif;
+    line-height: 1.428571429;
+    padding: 6px 12px;
+    box-shadow: 0 0 !important;
+    border-radius: 5px;
+    &:focus {
+        box-shadow: 0 0;
+        outline: 0;
+        border-color: transparent;
+    }
+    
+}
+.form-select {
+    font-size: 14px;
+    color: #767676;
+    height: 44px;
+}
+.btn {
+    width: 100%;
+    border-radius: 0;
+    height: 45px;
+}
+.btn-round {
+    border-radius: 5px;
+}
+.btn.btn-secondary {
+    color: #fff;
+}
+.section_css {
+    padding: 50px 40px 50px 40px;
+}

@@ -1,0 +1,155 @@
+@import './scss/Bootstrap/bootstrap.scss';
+
+body {
+  font-family: 'Rubik', sans-serif !important;
+  font-weight: 400;
+  color: #000;
+}
+
+.transition {
+  -webkit-transition: all 0.5s ease;
+  -moz-transition: all 0.5s ease;
+  -ms-transition: all 0.5s ease;
+  -o-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+}
+
+.theme-color {
+  background-color: #f3c52d;
+}
+
+.yollow-btn {
+  display: inline-flex;
+  background-color: #f3c52d;
+  padding: 7px 20px;
+  border: 0;
+  font-size: 19px;
+  font-weight: 300;
+  position: relative;
+  border-radius: 10px !important;
+  overflow: hidden;
+  transition: all 0.3s ease-in-out;
+}
+.yollow-btn::before {
+  background: #fff;
+  content: '';
+  height: 155px;
+  opacity: 0;
+  position: absolute;
+  top: -50px;
+  transform: rotate(35deg);
+  width: 50px;
+  transition: all 3000ms cubic-bezier(0.19, 1, 0.22, 1);
+}
+.yollow-btn::after {
+  background: #fff;
+  content: '';
+  height: 20rem;
+  opacity: 0;
+  position: absolute;
+  top: -50px;
+  transform: rotate(35deg);
+  transition: all 3000ms cubic-bezier(0.19, 1, 0.22, 1);
+  width: 8rem;
+}
+.butn__new::before {
+  left: -50%;
+}
+
+.butn__new::after {
+  left: -100%;
+}
+
+.yollow-btn:hover,
+.yollow-btn:active {
+  transform: translateY(-3px);
+  box-shadow: 0 10px 20px 0 rgba(0, 0, 0, 0.3);
+}
+
+.butn__new:hover::before {
+  left: 120%;
+  opacity: 0.5s;
+}
+
+.butn__new:hover::after {
+  left: 200%;
+  opacity: 0.6;
+}
+.yollow-btn span {
+  z-index: 20;
+}
+
+.main-padding {
+  padding: 40px 40px;
+}
+.section {
+  padding-left: 5px;
+  padding-right: 5px;
+  overflow-x: hidden;
+}
+
+@media screen and (min-width: 900px) {
+  .section {
+    padding-left: 90px !important ;
+    padding-right: 90px !important;
+  }
+}
+
+.sticky {
+  height: 100%;
+  position: sticky;
+  top: 20px;
+}
+
+.footer-page {
+  background: #f6f6f6;
+  h1 {
+    margin-bottom: 30px;
+    text-align: center;
+  }
+  h3 {
+    font-size: 23px;
+    font-weight: 500;
+  }
+  p {
+    color: #313131;
+    font-size: 16px;
+    font-weight: 400;
+    margin-bottom: 20px;
+  }
+  strong {
+    color: #000;
+    font-size: 16px;
+    font-weight: 500;
+  }
+  a {
+    text-decoration: none;
+    color: rgba(22, 22, 19, 0.75);
+  }
+}
+.user-agreement-wrapper {
+  li {
+    margin-bottom: 20px;
+  }
+}
+.w-45 {
+  width: 45% !important;
+}
+
+@media screen and (max-width: 600px) {
+  .d-xs-none {
+    display: none !important;
+  }
+  .sticky {
+    height: auto;
+    position: unset;
+  }
+  .support-wrapper {
+    .contect-us-form {
+      margin-bottom: 40px;
+    }
+  }
+  .justify-sm-content-center {
+    justify-content: center;
+  }
+}
