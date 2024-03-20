@@ -1,6 +1,6 @@
 import React from 'react'
 import '../../Blog.scss'
-import SharingSavvy from '../../../../images/Blog/Sharing Savvy Navigating.png'
+import SharingSavvy from '../../../../images/Blog/Sharing Savvy Navigating.webp'
 import { Link } from 'react-router-dom'
 import { Helmet } from 'react-helmet'
 

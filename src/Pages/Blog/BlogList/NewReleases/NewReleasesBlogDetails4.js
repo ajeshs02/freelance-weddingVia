@@ -1,7 +1,7 @@
 import React from 'react'
 import '../../Blog.scss'
 import { Link } from 'react-router-dom'
-import Enabled from '../../../../images/Blog/Enabled complete Biodata downloads with all profiles.png'
+import Enabled from '../../../../images/Blog/Enabled complete Biodata downloads with all profiles.webp'
 import { Helmet } from 'react-helmet'
 import Feature from '../../../../components/HomeBanner/Feature'
 import Download from '../../../../components/AppDownkoad/Download'

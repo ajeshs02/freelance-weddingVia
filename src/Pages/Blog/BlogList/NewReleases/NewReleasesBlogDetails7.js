@@ -1,7 +1,7 @@
 import React from 'react'
 import '../../Blog.scss'
 import { Link } from 'react-router-dom'
-import security from '../../../../images/Blog/We are updated with 4 new features to ensure your data security.png'
+import security from '../../../../images/Blog/We are updated with 4 new features to ensure your data security.webp'
 import { Helmet } from 'react-helmet'
 import Feature from '../../../../components/HomeBanner/Feature'
 import Download from '../../../../components/AppDownkoad/Download'

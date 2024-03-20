@@ -1,6 +1,6 @@
 import React from 'react'
 import '../../Blog.scss'
-import IcebreakerBonanzaSparking from '../../../../images/Blog/Icebreaker Bonanza Sparking.png'
+import IcebreakerBonanzaSparking from '../../../../images/Blog/Icebreaker Bonanza Sparking.webp'
 import { Link } from 'react-router-dom'
 import { Helmet } from 'react-helmet'
 

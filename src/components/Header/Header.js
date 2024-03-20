@@ -36,7 +36,11 @@ const Header = () => {
               <img src={black_logo} className={'img-fluid logo black-logo'} />
             </Link>
             <Link target={'_blank'} to="/">
-              <img src={logo_white} className={'img-fluid logo white-logo'} />
+              <img
+                loading="lazy"
+                src={logo_white}
+                className={'img-fluid logo white-logo'}
+              />
             </Link>
           </div>
           <div className="col-8 col-md-auto">
@@ -82,6 +86,7 @@ const Header = () => {
         tabIndex="-1"
         aria-labelledby="start-the-journeyLabel"
         aria-hidden="true"
+        style={{ overflow: 'hidden' }}
       >
         <div className="modal-dialog modal-dialog-centered">
           <div className="modal-content">

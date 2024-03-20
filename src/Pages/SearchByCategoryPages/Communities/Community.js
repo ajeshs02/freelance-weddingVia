@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from 'react'
 import CategoryDetails from '../../../components/SearchByCategory/CategoryDetails.js'
-import banner from '../../../images/poster.png'
+import banner from '../../../images/poster.webp'
 import { Helmet } from 'react-helmet'
 import { useParams } from 'react-router-dom'
 import { communityData } from '../../../constants/communityData.js'

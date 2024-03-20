@@ -1,7 +1,7 @@
 import React from 'react'
 import '../../Blog.scss'
 import { Link } from 'react-router-dom'
-import Initiate from '../../../../images/Blog/Initiate Connections on Your Terms with Chat Approval on WeddingVia Matrimony.png'
+import Initiate from '../../../../images/Blog/Initiate Connections on Your Terms with Chat Approval on WeddingVia Matrimony.webp'
 import { Helmet } from 'react-helmet'
 import Feature from '../../../../components/HomeBanner/Feature'
 import Download from '../../../../components/AppDownkoad/Download'

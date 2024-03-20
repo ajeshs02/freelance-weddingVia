@@ -1,6 +1,6 @@
 import React from 'react'
 import '../../Blog.scss'
-import NavigatingOverly from '../../../../images/Blog/Navigating Overly Forward Profiles on Dating Apps.png'
+import NavigatingOverly from '../../../../images/Blog/Navigating Overly Forward Profiles on Dating Apps.webp'
 import { Link } from 'react-router-dom'
 import { Helmet } from 'react-helmet'
 

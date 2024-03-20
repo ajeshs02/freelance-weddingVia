@@ -1,9 +1,6 @@
 import React from 'react'
-import { Link } from 'react-router-dom'
 import '../../Blog.scss'
 import BlogHeader from '../../BlogHeader'
-import Picture1 from '../../../../images/Blog/Picture1.png'
-import Picture2 from '../../../../images/Blog/Picture2.png'
 import { Helmet } from 'react-helmet'
 
 const WellnessBlogList = () => {

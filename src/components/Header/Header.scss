@@ -55,6 +55,7 @@ header {
 
 .modal {
   text-align: center;
+  overflow: hidden !important;
   .modal-content {
     border-radius: 20px;
     width: 450px;
@@ -198,4 +199,7 @@ header {
       padding: 9px 10px;
     }
   }
+}
+#start-the-journey {
+  overflow: hidden !important;
 }

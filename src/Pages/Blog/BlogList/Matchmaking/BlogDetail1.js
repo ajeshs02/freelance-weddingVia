@@ -1,7 +1,7 @@
 import React from 'react'
 import '../../Blog.scss'
 import { Link } from 'react-router-dom'
-import Intriguingbiossparking from '../../../../images/Blog/Intriguing bios sparking.png'
+import Intriguingbiossparking from '../../../../images/Blog/Intriguing bios sparking.webp'
 import { Helmet } from 'react-helmet'
 
 const BlogDetails = () => {

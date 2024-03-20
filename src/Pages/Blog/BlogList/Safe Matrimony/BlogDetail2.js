@@ -1,7 +1,7 @@
 import React from 'react'
 import '../../Blog.scss'
 import { Link } from 'react-router-dom'
-import Picture2 from '../../../../images/Blog/Picture2.png'
+import Picture2 from '../../../../images/Blog/Picture2.webp'
 import { Helmet } from 'react-helmet'
 
 const BlogDetails = () => {

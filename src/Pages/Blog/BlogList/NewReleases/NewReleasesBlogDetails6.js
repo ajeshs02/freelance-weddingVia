@@ -1,7 +1,7 @@
 import React from 'react'
 import '../../Blog.scss'
 import { Link } from 'react-router-dom'
-import Introducing from '../../../../images/Blog/Introducing Magic Links Share the Love.png'
+import Introducing from '../../../../images/Blog/Introducing Magic Links Share the Love.webp'
 import { Helmet } from 'react-helmet'
 import Feature from '../../../../components/HomeBanner/Feature'
 import Download from '../../../../components/AppDownkoad/Download'

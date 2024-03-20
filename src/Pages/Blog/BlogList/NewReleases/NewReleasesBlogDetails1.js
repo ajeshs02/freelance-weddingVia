@@ -1,7 +1,7 @@
 import React from 'react'
 import '../../Blog.scss'
 import { Link } from 'react-router-dom'
-import Automatic from '../../../../images/Blog/Automatic, free horoscope downloaded enabled.png'
+import Automatic from '../../../../images/Blog/Automatic, free horoscope downloaded enabled.webp'
 import { Helmet } from 'react-helmet'
 import Feature from '../../../../components/HomeBanner/Feature'
 import Download from '../../../../components/AppDownkoad/Download'

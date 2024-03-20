@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from 'react'
-import banner from '../../../images/poster.png'
+import banner from '../../../images/poster.webp'
 import { Helmet } from 'react-helmet'
 import StateDetails from '../../../components/SearchByCategory/StateDetails'
 import Modal from '../../../components/modal/Modal'

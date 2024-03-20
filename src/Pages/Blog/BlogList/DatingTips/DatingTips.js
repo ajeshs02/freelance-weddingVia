@@ -2,9 +2,9 @@ import React from 'react'
 import { Link } from 'react-router-dom'
 import '../../Blog.scss'
 import BlogHeader from '../../BlogHeader'
-import IcebreakerBonanzaSparking from '../../../../images/Blog/Icebreaker Bonanza Sparking.png'
-import NavigatingOverly from '../../../../images/Blog/Navigating Overly Forward Profiles on Dating Apps.png'
-import SharingSavvy from '../../../../images/Blog/Sharing Savvy Navigating.png'
+import IcebreakerBonanzaSparking from '../../../../images/Blog/Icebreaker Bonanza Sparking.webp'
+import NavigatingOverly from '../../../../images/Blog/Navigating Overly Forward Profiles on Dating Apps.webp'
+import SharingSavvy from '../../../../images/Blog/Sharing Savvy Navigating.webp'
 import { Helmet } from 'react-helmet'
 
 const DatingTips = () => {
