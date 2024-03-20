@@ -20,9 +20,9 @@ const Tripura = () => {
         subtitle={
           "Find your perfect match within Tripura's vibrant communities with WeddingVia Matrimony!"
         }
-        content={
-          'Looking for matrimony in Tripura community? WeddingVia Matrimony offers profiles from all castes, sub-casts, major professions such as managers, IT professional, doctors, lawyers, administrative professionals etc. Including NRI profiles from major locations such as United States, United Arab Emirates, United Kingdom, Australia, Canada, Singapore, Saudi Arabia etc.'
-        }
+        content={`Are you searching for matrimonial alliances within Tripura communities? WeddingVia Matrimony
+presents profiles from major Tripura communities such as Tripuri (Tipra), Bengali, Manipuri, Reang,
+Chakma, Jamatia, Halam, Garo, Hajong, Muslim, Hindu, Buddhist, and more.`}
       />
     </div>
   )

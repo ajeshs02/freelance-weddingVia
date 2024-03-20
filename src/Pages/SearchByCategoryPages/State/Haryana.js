@@ -20,9 +20,9 @@ const Haryana = () => {
         subtitle={
           "Find your perfect match within Haryana's vibrant communities with WeddingVia Matrimony!"
         }
-        content={
-          'Looking for matrimony in Haryana community? WeddingVia Matrimony offers profiles from all castes, sub-casts, major professions such as managers, IT professional, doctors, lawyers, administrative professionals etc. Including NRI profiles from major locations such as United States, United Arab Emirates, United Kingdom, Australia, Canada, Singapore, Saudi Arabia etc.'
-        }
+        content={`Are you searching for matrimonial alliances within Haryana communities? WeddingVia Matrimony
+presents profiles from major Haryana communities such as Jat, Brahmin, Punjabi, Khatri, Yadav,
+Rajput, Agarwal, Arora, Baniya, Saini, Muslim, and more.`}
       />
     </div>
   )

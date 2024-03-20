@@ -257,7 +257,7 @@ const SearchByCategory = () => {
               |{' '}
             </li>
             <li>
-              <Link target={'_blank'} to="/matrimony-for-telengana">
+              <Link target={'_blank'} to="/matrimony-for-telangana">
                 Telangana{' '}
               </Link>{' '}
               |{' '}

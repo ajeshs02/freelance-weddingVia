@@ -16,11 +16,13 @@ const NewReleasesBlogList = () => {
       <BlogHeader />
       <Helmet>
         <title>
-          Safe & Successful Online Dating: Tips & Resources from WeddingVia
+          Safe & Successful Online Dating: New Releases from WeddingVia
         </title>
         <meta
           name="description"
-          content="Discover expert safety tips, product updates, and matchmaking insights to navigate your online dating journey with confidence on WeddingVia"
+          content="Blogs by Weddingvia, India's most trusted matrimony app, connects you with compatible
+matches. Enjoy free chat, verified profiles, free biodata and horoscope downloads,
+matrimony profiles from all India communities"
           data-react-helmet="true"
         />
       </Helmet>

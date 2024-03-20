@@ -20,9 +20,8 @@ const Lakshadweep = () => {
         subtitle={
           "Find your perfect match within Lakshadweep's vibrant communities with WeddingVia Matrimony!"
         }
-        content={
-          'Looking for matrimony in Lakshadweep community? WeddingVia Matrimony offers profiles from all castes, sub-casts, major professions such as managers, IT professional, doctors, lawyers, administrative professionals etc. Including NRI profiles from major locations such as United States, United Arab Emirates, United Kingdom, Australia, Canada, Singapore, Saudi Arabia etc.'
-        }
+        content={`Looking for matrimony in Lakshadweep communities? WeddingVia Matrimony offers profiles
+from major Lakshadweep communities like Ayyar, Malikkan, and Koya.`}
       />
     </div>
   )

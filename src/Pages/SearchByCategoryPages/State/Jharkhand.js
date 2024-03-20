@@ -20,9 +20,9 @@ const Jharkhand = () => {
         subtitle={
           "Find your perfect match within Jharkhand's vibrant communities with WeddingVia Matrimony!"
         }
-        content={
-          'Looking for matrimony in Jharkhand community? WeddingVia Matrimony offers profiles from all castes, sub-casts, major professions such as managers, IT professional, doctors, lawyers, administrative professionals etc. Including NRI profiles from major locations such as United States, United Arab Emirates, United Kingdom, Australia, Canada, Singapore, Saudi Arabia etc.'
-        }
+        content={`Are you searching for matrimonial alliances within Jharkhand communities? WeddingVia Matrimony
+presents profiles from major Jharkhand communities such as Kurmi, Teli, Brahmin, Rajput, Munda,
+Santhal, Oraon, Ho, Muslim, Christian, Scheduled Tribes, Scheduled Castes, and more.`}
       />
     </div>
   )

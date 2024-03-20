@@ -20,9 +20,9 @@ const Sikkim = () => {
         subtitle={
           "Find your perfect match within Sikkim's vibrant communities with WeddingVia Matrimony!"
         }
-        content={
-          'Looking for matrimony in Sikkim community? WeddingVia Matrimony offers profiles from all castes, sub-casts, major professions such as managers, IT professional, doctors, lawyers, administrative professionals etc. Including NRI profiles from major locations such as United States, United Arab Emirates, United Kingdom, Australia, Canada, Singapore, Saudi Arabia etc.'
-        }
+        content={`Are you searching for matrimonial alliances within Sikkim communities? WeddingVia Matrimony
+presents profiles from major Sikkim communities such as Bhutia, Lepcha, Nepali, Limbu, Sherpa, Rai,
+Tamang, Gurung, Mangar, Newar, Christian, Buddhist, Hindu, and more.`}
       />
     </div>
   )

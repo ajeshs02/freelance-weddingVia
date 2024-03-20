@@ -20,9 +20,9 @@ const JammuKashmir = () => {
         subtitle={
           "Find your perfect match within Jammu & Kashmir's vibrant communities with WeddingVia Matrimony!"
         }
-        content={
-          'Looking for matrimony in Jammu & Kashmir community? WeddingVia Matrimony offers profiles from all castes, sub-casts, major professions such as managers, IT professional, doctors, lawyers, administrative professionals etc. Including NRI profiles from major locations such as United States, United Arab Emirates, United Kingdom, Australia, Canada, Singapore, Saudi Arabia etc.'
-        }
+        content={`Looking for matrimony in Jammu and Kashmir communities? WeddingVia Matrimony offers
+profiles from major Jammu and Kashmir communities like Kashmiri Pandit, Sheikh, Mughal, Jatt,
+Rajput, Brahmin, and Bakerwal.`}
       />
     </div>
   )

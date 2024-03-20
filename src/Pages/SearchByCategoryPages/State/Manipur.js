@@ -20,9 +20,9 @@ const Manipur = () => {
         subtitle={
           "Find your perfect match within Manipur's vibrant communities with WeddingVia Matrimony!"
         }
-        content={
-          'Looking for matrimony in Manipur community? WeddingVia Matrimony offers profiles from all castes, sub-casts, major professions such as managers, IT professional, doctors, lawyers, administrative professionals etc. Including NRI profiles from major locations such as United States, United Arab Emirates, United Kingdom, Australia, Canada, Singapore, Saudi Arabia etc.'
-        }
+        content={`Are you searching for matrimonial alliances within Manipur communities? WeddingVia Matrimony
+presents profiles from major Manipur communities such as Meitei, Naga, Kuki, Pangal (Manipuri
+Muslim), Tangkhul, Thadou, Kom, Kabui, Hmar, Paite, Christian, Hindu, Muslim, and more.`}
       />
     </div>
   )

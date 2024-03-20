@@ -3,17 +3,19 @@ import '../../Blog.scss'
 import { Link } from 'react-router-dom'
 import Enabled from '../../../../images/Blog/Enabled complete Biodata downloads with all profiles.png'
 import { Helmet } from 'react-helmet'
+import Feature from '../../../../components/HomeBanner/Feature'
+import Download from '../../../../components/AppDownkoad/Download'
 
 const NewReleasesBlogDetails4 = () => {
   return (
     <div className="blog-details-wrapper main-padding">
       <Helmet>
-        <title>
-          Safe & Successful Online Dating: Tips & Resources from WeddingVia
-        </title>
+        <title>Enabled complete Biodata downloads with all profiles.</title>
         <meta
           name="description"
-          content="Discover expert safety tips, product updates, and matchmaking insights to navigate your online dating journey with confidence on WeddingVia"
+          content="Blogs by Weddingvia, India's most trusted matrimony app, connects you with compatible
+matches. Enjoy free chat, verified profiles, free biodata and horoscope downloads,
+matrimony profiles from all India communities"
           data-react-helmet="true"
         />
       </Helmet>
@@ -106,6 +108,22 @@ const NewReleasesBlogDetails4 = () => {
           With these robust safeguards, you can download biodata with
           confidence, knowing your privacy is protected.
         </p>
+      </div>
+      <div className="new-release-bottom ">
+        <div className="text-box">
+          <h2>Hello There!</h2>
+          <p>
+            Our product development team is eager to hear your thoughts and
+            ideas for enhancing our app. <br /> Your feedback is invaluable in
+            shaping the best matchmaking experience.
+            <br /> Share your suggestions with us at
+            tech-primary@wedding.via.com <br />
+            Lets make matchmaking even better together!
+          </p>
+        </div>
+        {/* features bottom */}
+        <Feature />
+        <Download />
       </div>
     </div>
   )

@@ -20,9 +20,9 @@ const Orissa = () => {
         subtitle={
           "Find your perfect match within Orissa's vibrant communities with WeddingVia Matrimony!"
         }
-        content={
-          'Looking for matrimony in Orissa community? WeddingVia Matrimony offers profiles from all castes, sub-casts, major professions such as managers, IT professional, doctors, lawyers, administrative professionals etc. Including NRI profiles from major locations such as United States, United Arab Emirates, United Kingdom, Australia, Canada, Singapore, Saudi Arabia etc.'
-        }
+        content={`Are you searching for matrimonial alliances within Odisha communities? WeddingVia Matrimony
+presents profiles from major Odisha communities such as Khandayat, Brahmin, Kshatriya, Gouda,
+Karan, Teli, Scheduled Castes (SC), Scheduled Tribes (ST), Muslim, Christian, OBC, and more.`}
       />
     </div>
   )

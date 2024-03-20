@@ -19,9 +19,9 @@ const Karnataka = () => {
         subtitle={
           "Find your perfect match within Karnataka's vibrant communities with WeddingVia Matrimony!"
         }
-        content={
-          'Looking for matrimony in Karnataka community? WeddingVia Matrimony offers profiles from all castes, sub-casts, major professions such as managers, IT professional, doctors, lawyers, administrative professionals etc. Including NRI profiles from major locations such as United States, United Arab Emirates, United Kingdom, Australia, Canada, Singapore, Saudi Arabia etc.'
-        }
+        content={`Searching for matrimonial prospects in Karnataka communities? WeddingVia Matrimony presents
+profiles from major Karnataka communities including Lingayat, Brahmin, Vokkaliga, Kuruba, Nayaka,
+Gowda, Billava, Mogaveera, Bunt, Christian, Muslim, Dalit, Scheduled Tribes, and more.`}
       />
     </div>
   )

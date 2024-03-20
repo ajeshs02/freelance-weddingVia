@@ -20,9 +20,9 @@ const Gujarat = () => {
         subtitle={
           "Find your perfect match within Gujarat's vibrant communities with WeddingVia Matrimony!"
         }
-        content={
-          'Looking for matrimony in Gujarat community? WeddingVia Matrimony offers profiles from all castes, sub-casts, major professions such as managers, IT professional, doctors, lawyers, administrative professionals etc. Including NRI profiles from major locations such as United States, United Arab Emirates, United Kingdom, Australia, Canada, Singapore, Saudi Arabia etc.'
-        }
+        content={`Are you in search of matrimonial alliances within Gujarat communities? WeddingVia Matrimony
+offers profiles from major Gujarat communities such as Patel, Brahmin, Jain, Rajput, Vaishnav,
+Kshatriya, Lohana, Leva Patel, Kadva Patel, Muslim, Sindhi, and more.`}
       />
     </div>
   )

@@ -1,14 +1,15 @@
 import React from 'react'
-import logoBlack from '../../images/logo_black.png'
+import logoBlack from '../../images/logo_black.webp'
 import { Link } from 'react-router-dom'
 import './AppDownload.scss'
-import AppImage from '../../images/app.png'
+import AppImage from '../../images/app.webp'
 import ios from '../../images/Apple.png'
 import android from '../../images/android.png'
 import EffortlessNavigation from '../../images/Effortless Navigation.png'
 import PersonalizedRecommendations from '../../images/Personalized Recommendations.png'
 import RealTimeNotifications from '../../images/Real-Time Notifications.png'
 import SecureCommunication from '../../images/Secure Communication.png'
+import Download from './Download'
 
 const AppDownload = () => {
   return (
@@ -16,7 +17,7 @@ const AppDownload = () => {
       <div className="row align-items-center">
         <div className="col-md-5 text-center">
           <div className="wow zoomIn">
-            <img src={AppImage} className="img-fluid" />
+            <img loading="lazy" src={AppImage} className="img-fluid" />
           </div>
         </div>
         <div className="col-md-7">
@@ -30,7 +31,11 @@ const AppDownload = () => {
           <div className="row align-items-center">
             <div className="col-md-auto">
               <div className="img-block">
-                <img src={EffortlessNavigation} className="img-fluid w-45" />
+                <img
+                  loading="lazy"
+                  src={EffortlessNavigation}
+                  className="img-fluid w-45"
+                />
               </div>
             </div>
             <div className="col-md">
@@ -46,7 +51,11 @@ const AppDownload = () => {
           <div className="row align-items-center">
             <div className="col-md-auto">
               <div className="img-block">
-                <img src={PersonalizedRecommendations} className="img-fluid" />
+                <img
+                  loading="lazy"
+                  src={PersonalizedRecommendations}
+                  className="img-fluid"
+                />
               </div>
             </div>
             <div className="col-md">
@@ -62,7 +71,11 @@ const AppDownload = () => {
           <div className="row align-items-center">
             <div className="col-md-auto">
               <div className="img-block">
-                <img src={RealTimeNotifications} className="img-fluid w-45" />
+                <img
+                  loading="lazy"
+                  src={RealTimeNotifications}
+                  className="img-fluid w-45"
+                />
               </div>
             </div>
             <div className="col-md">
@@ -78,7 +91,11 @@ const AppDownload = () => {
           <div className="row align-items-center">
             <div className="col-md-auto">
               <div className="img-block">
-                <img src={SecureCommunication} className="img-fluid" />
+                <img
+                  loading="lazy"
+                  src={SecureCommunication}
+                  className="img-fluid"
+                />
               </div>
             </div>
             <div className="col-md">
@@ -90,24 +107,8 @@ const AppDownload = () => {
             </div>
           </div>
 
-          <div className="downlaod">
-            <div className="d-flex align-items-center justify-sm-content-center">
-              <Link
-                to="https://apps.apple.com/us/app/weddingvia-matrimony/id1518963636"
-                target={'_blank'}
-              >
-                {' '}
-                <img src={ios} className="img-fluid app-icon me-3" />
-              </Link>
-              <Link
-                to="https://play.google.com/store/apps/details?id=com.weddingvia&pli=1"
-                target={'_blank'}
-              >
-                {' '}
-                <img src={android} className="img-fluid app-icon" />
-              </Link>
-            </div>
-          </div>
+          {/* download app */}
+          <Download />
         </div>
       </div>
     </div>

@@ -20,9 +20,9 @@ const Rajasthan = () => {
         subtitle={
           "Find your perfect match within Rajasthan's vibrant communities with WeddingVia Matrimony!"
         }
-        content={
-          'Looking for matrimony in Rajasthan community? WeddingVia Matrimony offers profiles from all castes, sub-casts, major professions such as managers, IT professional, doctors, lawyers, administrative professionals etc. Including NRI profiles from major locations such as United States, United Arab Emirates, United Kingdom, Australia, Canada, Singapore, Saudi Arabia etc.'
-        }
+        content={`Are you searching for matrimonial alliances within Rajasthan communities? WeddingVia Matrimony
+presents profiles from major Rajasthan communities such as Rajput, Brahmin, Jat, Meena, Gurjar,
+Sindhi, Marwari, Jain, Scheduled Castes (SC), Scheduled Tribes (ST), Muslim, and more.`}
       />
     </div>
   )

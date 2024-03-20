@@ -1,33 +1,21 @@
-import React, { useEffect, useRef, useState } from 'react'
+import React, { useState } from 'react'
 import { useLocation } from 'react-router-dom'
 import { Link } from 'react-router-dom'
-import black_logo from '../../images/logo_black.png'
-import logo_white from '../../images/logo_white.png'
+import black_logo from '../../images/logo_black.webp'
+import logo_white from '../../images/logo_white.webp'
 import ios from '../../images/Apple.png'
 import android from '../../images/android.png'
 
 import './Header.scss'
-import { customPaths } from '../../constants/constants'
-import Modal from '../modal/Modal'
+import { ModalCustomPaths } from '../../constants/constants'
 
 const Header = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false)
 
   const location = useLocation()
 
-  // console.log('pathname: ', location.pathname)
-
-  // useEffect(() => {
-  //   if (location.pathname === '/') {
-  //     const timer = setTimeout(() => {
-  //       document.getElementById('modal_btn').click()
-  //     }, 4000)
-  //     return () => clearTimeout(timer)
-  //   }
-  // }, [location])
-
   const isCustomHeaderPath = (pathname) => {
-    return customPaths.some((path) => path === pathname)
+    return ModalCustomPaths.some((path) => path === pathname.toLowerCase())
   }
 
   const handleMenu = () => {
@@ -39,9 +27,7 @@ const Header = () => {
       <header
         style={{ zIndex: 100 }}
         className={
-          isCustomHeaderPath(location.pathname)
-            ? 'custom-header section'
-            : ' section'
+          isCustomHeaderPath(location.pathname) ? 'custom-header ' : ' '
         }
       >
         <div className="row align-items-center justify-content-between">

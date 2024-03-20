@@ -20,9 +20,9 @@ const HimachalPradesh = () => {
         subtitle={
           "Find your perfect match within Himachal Pradesh's vibrant communities with WeddingVia Matrimony!"
         }
-        content={
-          'Looking for matrimony in Himachal Pradesh community? WeddingVia Matrimony offers profiles from all castes, sub-casts, major professions such as managers, IT professional, doctors, lawyers, administrative professionals etc. Including NRI profiles from major locations such as United States, United Arab Emirates, United Kingdom, Australia, Canada, Singapore, Saudi Arabia etc.'
-        }
+        content={`Are you searching for matrimonial alliances within Himachal Pradesh communities? WeddingVia
+Matrimony presents profiles from major Himachal Pradesh communities such as Brahmin, Rajput,
+Thakur, Chamar, Scheduled Tribes, Gaddi, Gujjar, Koli, Bhutti, Muslim, and more.`}
       />
     </div>
   )

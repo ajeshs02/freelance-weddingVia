@@ -1,8 +1,8 @@
-import React from 'react';
+import React from 'react'
 import SearchByCategory from '../../components/SearchByCategory/SearchByCategory'
 
 const SearchbyCategories = () => {
-    return <SearchByCategory />
+  return <SearchByCategory />
 }
 
-export default SearchbyCategories;
+export default SearchbyCategories

@@ -5,14 +5,18 @@ import AppDownload from '../AppDownkoad/AppDownload'
 import SearchByCategory from './SearchByCategory'
 import ios from '../../images/Apple.png'
 import android from '../../images/android.png'
+import CommonHomeBanner from '../CommonHomeBanner.js/CommonHomeBanner'
 
 const CategoryDetails = (props) => {
   const { bannerImage, title, subtitle, content, details } = props
 
-
+  const startIndex = title.indexOf('For') + 4 // Start index after "For"
+  const endIndex = title.indexOf('Community') // End index before "Community"
+  const extractedTerm = title.slice(startIndex, endIndex).trim()
 
   return (
     <div>
+      <CommonHomeBanner title={extractedTerm} type={'Community'} />
       <div className="new-categoryDetails-wrapper">
         <div className="row g-0 align-items-center">
           <div className="col-md-6">
@@ -55,8 +59,6 @@ const CategoryDetails = (props) => {
       <Feature />
       <AppDownload />
       <SearchByCategory />
-
-
     </div>
   )
 }

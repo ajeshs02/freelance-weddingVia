@@ -20,9 +20,10 @@ const UttarPradesh = () => {
         subtitle={
           "Find your perfect match within Uttar Pradesh's vibrant communities with WeddingVia Matrimony!"
         }
-        content={
-          'Looking for matrimony in Uttar Pradesh community? WeddingVia Matrimony offers profiles from all castes, sub-casts, major professions such as managers, IT professional, doctors, lawyers, administrative professionals etc. Including NRI profiles from major locations such as United States, United Arab Emirates, United Kingdom, Australia, Canada, Singapore, Saudi Arabia etc'
-        }
+        content={`Are you searching for matrimonial alliances within Uttar Pradesh communities? WeddingVia
+Matrimony presents profiles from major Uttar Pradesh communities such as Brahmin, Rajput, Yadav,
+Jat, Kayastha, Bania, Vaishya, Scheduled Castes (SC), Scheduled Tribes (ST), Muslim, Christian, and
+more.`}
       />
     </div>
   )

@@ -1,64 +1,85 @@
 .app-download-wrapper {
-    background: #f4f4f4;
-   
-    h2 {
-        font-size: 2.2rem;
-        margin-bottom: 10px;
+  background: #f4f4f4;
+
+  h2 {
+    font-size: 2.2rem;
+    margin-bottom: 10px;
+  }
+  p {
+    font-size: 1rem;
+    margin-bottom: 20px;
+  }
+  strong {
+    font-weight: 500;
+  }
+  .downlaod {
+    margin-top: 20px;
+    width: fit-content;
+    display: flex;
+    align-items: left;
+    justify-content: center;
+    flex-direction: column;
+    margin-left: 120px;
+    .app-icon {
+      transition: box-shadow 0.4s cubic-bezier(0.165, 0.84, 0.44, 1),
+        transform 0.4s cubic-bezier(0.165, 0.84, 0.44, 1);
+      // width: 25%;
+    }
+    div {
+      column-gap: 10px;
     }
     p {
-        font-size: 1rem;
-        margin-bottom: 20px;
+      margin-top: auto;
+      margin-bottom: auto;
+      font-size: 1rem;
+      text-align: left;
+      color: gray;
+      margin-bottom: 6px;
+      font-weight: 400;
     }
-    strong {
-        font-weight: 500;
+  }
+  .img-block {
+    height: 100px;
+    width: 100px;
+    padding: 10px;
+    border: 1px solid #f9bf22;
+    border-radius: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #fff;
+    margin-bottom: 20px;
+    img {
+      width: 70%;
     }
-    .downlaod {
-        margin-top: 20px;
-        .app-icon {
-           
-            transition: box-shadow .4s cubic-bezier(.165, .84, .44, 1), transform .4s cubic-bezier(.165, .84, .44, 1);
-            // width: 25%;
-           
-        }
-    }
-    .img-block {
-        height: 100px;
-        width: 100px;
-        padding: 10px;
-        border: 1px solid #ffcd2a;
-        border-radius: 100%;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        background: #fff;
-        margin-bottom: 20px;
-        img {
-            width: 70%;
-        }
-    }
+  }
 }
 
 .app-download-wrapper.main-padding {
-    padding: 30px 40px;
+  padding: 30px 40px;
 }
 
-@media screen and (max-width: 600px) { 
-    .app-download-wrapper {
-        text-align: center;
-        h2 {
-            font-size: 2em;
-            text-align: center;
-            margin-top: 60px;
-        }
-        .img-block {
-            margin: 0 auto;
-            margin-bottom: 20px;
-        }
-        p {
-            margin-bottom: 45px;
-        }
-        .downlaod .app-icon {
-            width: 90%;
-        }
+@media screen and (max-width: 600px) {
+  .app-download-wrapper {
+    text-align: center;
+    h2 {
+      font-size: 2em;
+      text-align: center;
+      margin-top: 60px;
     }
+    .img-block {
+      margin: 0 auto;
+      margin-bottom: 20px;
+    }
+    p {
+      margin-bottom: 45px;
+    }
+    .downlaod {
+      margin-left: auto;
+      margin-right: auto;
+    }
+    .downlaod .app-icon {
+      width: 90%;
+    }
+  }
 }

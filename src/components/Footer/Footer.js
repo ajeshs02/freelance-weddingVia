@@ -2,7 +2,7 @@ import React from 'react'
 import './Footer.scss'
 import apple from '../../images/apple-store-white.png'
 import android from '../../images/Android-store-white.png'
-import logo_white from '../../images/logo_white.png'
+import logo_white from '../../images/logo_white.webp'
 import two_hearts from '../../images/two-hearts.png'
 import { Link } from 'react-router-dom'
 import fb from '../../images/fb.png'
@@ -83,33 +83,48 @@ const Footer = () => {
         </div>
         <ul className="footer-link">
           <li>
-            <Link target={"_blank"} to={'/search-by-categories'}> Search by Categories</Link>{' '}
+            <Link target={'_blank'} to={'/search-by-categories'}>
+              {' '}
+              Search by Categories
+            </Link>{' '}
             &nbsp; |{' '}
           </li>
           <li>
-            <Link target={"_blank"} to={'/get-mobile-app'}>Get Mobile App</Link> &nbsp;{' '}
-            <span className="d-xs-none">|</span>{' '}
+            <Link target={'_blank'} to={'/get-mobile-app'}>
+              Get Mobile App
+            </Link>{' '}
+            &nbsp; <span className="d-xs-none">|</span>{' '}
           </li>
           <li>
             {' '}
-            <Link target={"_blank"} to="/user_agreement_matrimony_for_india">
+            <Link target={'_blank'} to="/user_agreement_matrimony_for_india">
               User Agreement
             </Link>{' '}
             &nbsp; |{' '}
           </li>
           <li>
-            <Link target={"_blank"} to="/privacy_policy_matrimony_for_india">Privacy Policy</Link>{' '}
-            &nbsp; <span className="d-xs-none">|</span>{' '}
+            <Link target={'_blank'} to="/privacy_policy_matrimony_for_india">
+              Privacy Policy
+            </Link>{' '}
+            &nbsp; |{' '}
           </li>
           <li>
-            <Link target={"_blank"} to="/cookie-policy">Cookie Policy</Link> &nbsp; |{' '}
+            <Link target={'_blank'} to="/cookie-policy">
+              Cookie Policy
+            </Link>{' '}
+            &nbsp; |{' '}
           </li>
           <li>
-            <Link target={"_blank"} to="/DatingTips">Blog</Link> &nbsp; |{' '}
+            <Link target={'_blank'} to="/DatingTips">
+              Blog
+            </Link>{' '}
+            &nbsp; |{' '}
           </li>
           <li>
-            <Link target={"_blank"} to={'/support'}>Support</Link> &nbsp;{' '}
-            <span className="d-xs-none"></span>{' '}
+            <Link target={'_blank'} to={'/support'}>
+              Support
+            </Link>{' '}
+            &nbsp; <span className="d-xs-none"></span>{' '}
           </li>
           {/* <li>Site Map  </li> */}
         </ul>

@@ -3,6 +3,7 @@ header {
   border-bottom: 1px solid #f3c52d;
   .m-menu {
     display: none;
+    cursor: pointer;
   }
   img.logo {
     width: 200px;
@@ -34,7 +35,7 @@ header {
   top: 0;
   left: 0;
   right: 0;
-  width: 100%;
+  height: auto;
   z-index: 9999;
   border-bottom: 0;
   .black-logo {
@@ -176,6 +177,7 @@ header {
     }
     ul.active {
       display: block;
+      z-index: 10000;
       width: 250px;
       background: #fff;
       position: absolute;

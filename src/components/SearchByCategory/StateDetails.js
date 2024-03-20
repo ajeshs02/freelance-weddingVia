@@ -5,13 +5,13 @@ import AppDownload from '../AppDownkoad/AppDownload'
 import SearchByCategory from './SearchByCategory'
 import ios from '../../images/Apple.png'
 import android from '../../images/android.png'
-import StateHomeBanner from '../StateHomeBanner.js/StateHomeBanner'
+import CommonHomeBanner from '../CommonHomeBanner.js/CommonHomeBanner'
 
 const StateDetails = (props) => {
   const { bannerImage, title, subtitle, content } = props
   return (
     <div>
-      <StateHomeBanner title={title} />
+      <CommonHomeBanner title={title} />
 
       <div className="new-categoryDetails-wrapper">
         <div className="row g-0 align-items-center">

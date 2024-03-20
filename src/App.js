@@ -163,6 +163,7 @@ const App = () => {
           data-bs-target="#start-the-journey"
           style={{ display: 'none' }}
         ></button>
+
         {children}
       </div>
     )
