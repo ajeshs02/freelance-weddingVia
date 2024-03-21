@@ -3,6 +3,7 @@ import unlockingprofileImg from '../../images/icon-1.png'
 import protectfeatureImg from '../../images/icon-2.png'
 import freehoroscopeImg from '../../images/icon-3.png'
 import indianscommunitiesImg from '../../images/icon-4.png'
+import './HomeBanner.scss'
 
 const Feature = () => {
   return (
@@ -18,7 +19,7 @@ const Feature = () => {
             alt="Connect & discover without unlocking profile"
           />
 
-          <p>Connect & discover without unlocking profile</p>
+          <p>Connect & Discover without unlocking profile</p>
         </li>
         <li>
           <img
@@ -37,7 +38,7 @@ const Feature = () => {
             alt="Complete biodata downloads & free horoscope"
           />
 
-          <p>Complete biodata downloads & free horoscope</p>
+          <p>Complete BioData downloads & free horoscope</p>
         </li>
         <li>
           <img
@@ -46,7 +47,7 @@ const Feature = () => {
             alt="Profiles from all Indians communities"
           />
 
-          <p>Profiles from all Indians communities</p>
+          <p>Profiles from all Indian communities</p>
         </li>
       </ul>
     </div>

@@ -93,7 +93,7 @@ const Footer = () => {
             <Link target={'_blank'} to={'/get-mobile-app'}>
               Get Mobile App
             </Link>{' '}
-            &nbsp; <span className="d-xs-none">|</span>{' '}
+            &nbsp; |{' '}
           </li>
           <li>
             {' '}

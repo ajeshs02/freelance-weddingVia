@@ -137,6 +137,7 @@ import Communities from './Pages/SearchByCategoryPages/Communities/Community'
 import SearchByCommunities from './components/SeachByCommunities/SearchByCommunities'
 import ModalWrapper from './components/modal/ModalWrapper'
 import { ModalCustomPaths } from './constants/constants'
+import TrackingScripts from './components/TrackingScripts/TrackingScripts'
 
 const App = () => {
   const Wrapper = ({ children }) => {
@@ -155,7 +156,7 @@ const App = () => {
       }
     }, [])
     return (
-      <div>
+      <div style={{ paddingRight: 0, padding: 0 }}>
         <button
           id="modal_btn"
           className="yollow-btn butn__new float_btn"
@@ -163,7 +164,8 @@ const App = () => {
           data-bs-target="#start-the-journey"
           style={{ display: 'none' }}
         ></button>
-
+        {/* Tracking script for all component */}
+        <TrackingScripts />
         {children}
       </div>
     )

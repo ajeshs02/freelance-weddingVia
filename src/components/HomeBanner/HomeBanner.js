@@ -5,51 +5,19 @@ import Feature from './Feature'
 
 const HomeBanner = (props) => {
   return (
-    <div className="">
+    <div className="" style={{ height: 'auto' }}>
       <div
         className="home-banner-wrapper main-padding"
-        style={{ backgroundImage: `url(${banner})` }}
+        style={{
+          padding: 0,
+          backgroundImage: `url(${banner})`,
+        }}
       >
         <div className="containt-block">
           <div className="wow fadeInDown delay-1s">
             <h1>Safe & Secured Indian Matrimony Service</h1>
           </div>
-          {/* <div className="wow fadeIn delay-1s">
-            <ul>
-              <li>
-                <img
-                  src={unlockingprofileImg}
-                  className="img-fluid p-1"
-                  alt="Connect & discover without unlocking profile"
-                />
-                Connect & discover <br /> without unlocking profile
-              </li>
-              <li>
-                <img
-                  src={protectfeatureImg}
-                  className="img-fluid p-1"
-                  alt="Photo Guard, Number Guard & Profile Protect Feature"
-                />
-                Photo Guard, Number Guard & <br /> Profile Protect Feature
-              </li>
-              <li>
-                <img
-                  src={freehoroscopeImg}
-                  className="img-fluid"
-                  alt="Complete biodata downloads & free horoscope"
-                />
-                Complete biodata <br /> downloads & free horoscope
-              </li>
-              <li>
-                <img
-                  src={indianscommunitiesImg}
-                  className="img-fluid"
-                  alt="Profiles from all Indians communities"
-                />
-                Profiles from <br /> all Indians communities
-              </li>
-            </ul>
-          </div> */}
+
           <div className="text-center">
             <div className="wow fadeInDown delay-1s">
               <button

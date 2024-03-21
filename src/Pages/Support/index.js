@@ -15,7 +15,7 @@ const Support = () => {
       </Helmet>
       <h1>Support</h1>
       <div className="row">
-        <div className="col-md-5 sticky">
+        <div className="col-md-5 ">
           <div className="contect-us-form">
             <h2>We're here to make your search for love easier.</h2>
             <p>
@@ -23,9 +23,9 @@ const Support = () => {
               you find the perfect match.
             </p>
             <form>
-              <input type={'text'} className="text-box" />
-              <input type={'text'} className="text-box" />
-              <input type={'text'} className="text-box" />
+              <input type={'text'} className="input-text-box" />
+              <input type={'text'} className="input-text-box" />
+              <input type={'text'} className="input-text-box" />
               <textarea
                 className="text-area"
                 placeholder="Tell us how we can help"
@@ -33,6 +33,7 @@ const Support = () => {
                 id="message"
                 name="message"
                 data-name="field"
+                spellcheck="false"
               ></textarea>
               <div className="text-center">
                 <button

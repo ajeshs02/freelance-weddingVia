@@ -23,7 +23,7 @@
   }
   .containt-block {
     position: relative;
-    padding-top: 500px;
+    padding-top: 350px;
     z-index: 99;
     color: #fff;
     h1 {
@@ -94,20 +94,27 @@ ul.containt-block {
   }
 }
 
+@media screen and (min-width: 870px) {
+  .state-home-banner-wrapper {
+    min-height: 78vh;
+    height: 78vh;
+    max-height: 78vh;
+  }
+}
+
 @media screen and (max-width: 600px) {
   .main-padding {
     padding: 30px 20px !important;
   }
-  .home-banner-wrapper {
+  .state-home-banner-wrapper {
     min-height: 500px !important;
-    height: auto;
     padding: 0;
     button {
       padding: 8px 14px;
       font-size: 13px;
     }
     .containt-block {
-      padding-top: 250px;
+      padding-top: 350px;
       h1 {
         font-size: 18px;
         width: 100%;

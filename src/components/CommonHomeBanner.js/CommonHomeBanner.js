@@ -1,6 +1,6 @@
 import React from 'react'
 import banner from '../../images/banner.webp'
-import './StateHomeBanner.scss'
+import './CommonHomeBanner.scss'
 import Feature from '../HomeBanner/Feature'
 
 const CommonHomeBanner = ({ title, type = 'State' }) => {

@@ -1,4 +1,4 @@
-import React, { useState } from 'react'
+import React, { useEffect, useState } from 'react'
 import { useLocation } from 'react-router-dom'
 import { Link } from 'react-router-dom'
 import black_logo from '../../images/logo_black.webp'
@@ -22,6 +22,20 @@ const Header = () => {
     console.log('handleMenu', isMenuOpen)
     setIsMenuOpen(!isMenuOpen)
   }
+
+  useEffect(() => {
+    const closeMenuOnOutsideClick = (event) => {
+      if (isMenuOpen && !event.target.closest('.m-menu')) {
+        setIsMenuOpen(false)
+      }
+    }
+
+    document.addEventListener('click', closeMenuOnOutsideClick)
+
+    return () => {
+      document.removeEventListener('click', closeMenuOnOutsideClick)
+    }
+  }, [isMenuOpen])
   return (
     <div>
       <header
@@ -86,10 +100,13 @@ const Header = () => {
         tabIndex="-1"
         aria-labelledby="start-the-journeyLabel"
         aria-hidden="true"
-        style={{ overflow: 'hidden' }}
+        style={{ right: '0', bottom: '0', overflowX: 'hidden', padding: 0 }}
       >
         <div className="modal-dialog modal-dialog-centered">
-          <div className="modal-content">
+          <div
+            className="modal-content"
+            style={{ marginLeft: 'auto', marginRight: 'auto' }}
+          >
             <div className="modal-body">
               <button
                 type="button"
@@ -99,19 +116,7 @@ const Header = () => {
               >
                 &times;
               </button>
-              {/* <img src={black_logo} className="img-fluid logo" />
-                        <p>Most Safe & Secured Matchmacking Service!</p>
 
-                        <div className="input-group">
-                            <select className="form-select" id="inputGroupSelect04" aria-label="Example select with button addon">
-                                <option selected>+91</option>
-                                <option value="+91">+91</option>
-                                <option value="+91">+91</option>
-                                <option value="+91">+91</option>
-                            </select>
-                            <input type={"text"} className="text-control" />
-                        </div>
-                        <button className='yollow-btn butn__new' data-bs-toggle="modal" data-bs-target="#start-the-journey"><strong>SEND INVITE</strong></button> */}
               <div className="model-footer">
                 <div>
                   <h2>WeddingVia Matrimony</h2>
