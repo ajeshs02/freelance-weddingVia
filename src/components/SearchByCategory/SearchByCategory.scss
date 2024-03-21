@@ -153,6 +153,9 @@ ul.containt-block {
 }
 
 @media screen and (max-width: 600px) {
+  .new-categoryDetails-wrapper img.img-fluid:first-child {
+    display: none;
+  }
   .main-padding {
     padding: 30px 20px !important;
   }

@@ -181,6 +181,12 @@ body {
   width: 45% !important;
 }
 
+@media screen and (max-width: 767px) {
+  .new-categoryDetails-wrapper img.img-fluid:first-child {
+    display: none;
+  }
+}
+
 @media screen and (max-width: 600px) {
   .d-xs-none {
     display: none !important;
