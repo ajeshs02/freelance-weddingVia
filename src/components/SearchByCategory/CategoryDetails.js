@@ -4,7 +4,7 @@ import Feature from '../Feature/Feature'
 import AppDownload from '../AppDownkoad/AppDownload'
 import SearchByCategory from './SearchByCategory'
 import ios from '../../images/Apple.png'
-import android from '../../images/android.png'
+import android from '../../images/Android.png'
 import CommonHomeBanner from '../CommonHomeBanner.js/CommonHomeBanner'
 
 const CategoryDetails = (props) => {

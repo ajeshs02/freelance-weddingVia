@@ -1,7 +1,7 @@
-import React, { useEffect, useState } from 'react'
+import React from 'react'
 import { Link } from 'react-router-dom'
 import ios from '../../images/Apple.png'
-import android from '../../images/android.png'
+import android from '../../images/Android.png'
 import './Modal.scss'
 
 const Modal = ({ setIsModalOpen }) => {

@@ -1,6 +1,6 @@
 import React from 'react'
 import ios from '../../images/Apple.png'
-import android from '../../images/android.png'
+import android from '../../images/Android.png'
 import { Link } from 'react-router-dom'
 
 const Download = () => {

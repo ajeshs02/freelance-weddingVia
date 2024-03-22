@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom'
 import black_logo from '../../images/logo_black.webp'
 import logo_white from '../../images/logo_white.webp'
 import ios from '../../images/Apple.png'
-import android from '../../images/android.png'
+import android from '../../images/Android.png'
 
 import './Header.scss'
 import { ModalCustomPaths } from '../../constants/constants'
